@@ -1,0 +1,91 @@
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">
+        Voce e gamer?
+      </h1>
+      <p id="description" class="description text-center">Completa tudo</p>
+    </header>
+    <form id="survey-form"><div class="form-group">
+      <label id="name-label" for="name"> Bota o nome</label>
+      <input id="name"
+             name="name"
+             class="form-control"
+             placeholder="Nome"
+             required/> 
+      </div>
+      <div class="form-group">
+      <label id="email-label" for="email"> Bota o email</label>
+      <input id="email"
+             class="form-control"
+             name="email"
+             type="email"
+             placeholder="Email"
+             required/>
+      </div>
+      <label id="number-label" for="number">Bota idade</label>
+       <input id="number"
+              class="form-control"
+              name="number"
+              type="number"
+              placeholder="Idade"
+              min="10"
+              max="99"/>
+      <label>Seu sexo</label>
+      <select id="dropdown">
+        
+        <option disabled selected value>Selecione alguma opcao</option>
+          
+        <option value="Femea">Femea</option>
+        <option value="Macho">Macho</option>
+      </select>
+      <div class="form-group">
+        <p>Você gosta do Elon Musk?</p>
+        <label>
+          <input
+            name="user-like"
+            value="Definitivamente"
+            class="input-radio"
+            type="radio"
+            checked>Definitivamente</input>
+        </label>
+        <label>
+          <input
+            name="user-like"
+            value="Nunca"
+            class="input-radio"
+            type="radio">Nunca</input>
+        </label>
+      </div>
+    <div class="form-group">
+      
+      <p>Voce gosta de...</p>
+     
+      <span class="clue">(Marque todos)</span>
+         </label>
+      <label>
+        <input
+          name="prefer"
+          value="Chocolate"
+          type="checkbox"
+          class="input-checkbox">Chocolate</input>
+      </label>
+      <label>
+        <input
+          name="prefer"
+          value="Maca"
+          type="checkbox"
+          class="input-checkbox">Maça</input>
+        </label>
+      </div>
+      <p>Qualquer coisa pra fala, so mandar</p>
+      <textarea
+      id="comments"
+      class="input-textarea"
+      name="comentario"
+      placeholder="Escreva teu comentario aqui">
+     </textarea>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">MANDAR</button>
+      </div>
+    </form>
+  </div>
